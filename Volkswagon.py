@@ -1,6 +1,4 @@
 #Volkswagen Adaptive Learning System and Emotion-Aware Cabin Environment prototype.
-#streamlit for UI
-
 
 import numpy as np
 import pandas as pd

@@ -7,6 +7,7 @@ import cv2
 import streamlit as st
 import time
 # Step 1: Prepare Driving Data
+#taking random data , can be modified
 def generate_driving_data():
     data = {
         'speed': [30, 60, 45, 70, 55, 80, 40, 65],

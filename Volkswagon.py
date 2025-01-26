@@ -1,5 +1,5 @@
 #Volkswagen Adaptive Learning System and Emotion-Aware Cabin Environment prototype.
-
+#importing mandatory modules
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier

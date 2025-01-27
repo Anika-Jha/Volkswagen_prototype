@@ -36,7 +36,7 @@ def detect_emotion(frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
     
-    # Simulate emotion based on face position (for prototype purposes)
+    # Simulate emotion based on face position
     for (x, y, w, h) in faces:
         if x % 2 == 0:
             return 'happy'

@@ -1,4 +1,5 @@
 #Volkswagen Adaptive Learning System and Emotion-Aware Cabin Environment prototype.
+
 #importing necessary modules
 import numpy as np
 import pandas as pd
@@ -6,8 +7,9 @@ from sklearn.ensemble import RandomForestClassifier
 import cv2
 import streamlit as st
 import time
+
 # Step 1: Prepare Driving Data
-#taking random data , can be modified
+
 def generate_driving_data():
     data = {
         'speed': [30, 60, 45, 70, 55, 80, 40, 65],

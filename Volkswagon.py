@@ -9,7 +9,7 @@ import streamlit as st
 import time
 
 # Step 1: Prepare Driving Data
-
+#random data taken
 def generate_driving_data():
     data = {
         'speed': [30, 60, 45, 70, 55, 80, 40, 65],

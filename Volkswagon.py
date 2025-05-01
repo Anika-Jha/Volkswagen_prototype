@@ -9,7 +9,7 @@ import streamlit as st
 import time
 
 # Step 1: Prepare Driving Data
-# taking random values 
+
 def generate_driving_data():
     data = {
         'speed': [30, 60, 45, 70, 55, 80, 40, 65],
@@ -49,7 +49,7 @@ def detect_emotion(frame):
 def adjust_cabin_settings(driving_style, emotion):
     # Define cabin adjustments based on driving style and emotion
     adjustments = {
-        #setting different modes
+      
         'calm': {'lighting': 'soft', 'music': 'relaxing'},
         'aggressive': {'lighting': 'dim', 'music': 'neutral'},
         'happy': {'lighting': 'bright', 'music': 'upbeat'},
